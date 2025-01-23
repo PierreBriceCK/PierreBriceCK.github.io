@@ -626,7 +626,7 @@ body {
 .container .box:nth-child(2):before,
 .container .box:nth-child(2):after
 {
-  background: linear-gradient(315deg, #fff, #cfff)
+  background: linear-gradient(315deg, #fff, #fff)
 }
 
 .container .box:nth-child(3):before,
