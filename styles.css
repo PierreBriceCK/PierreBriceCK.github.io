@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
 
 
 :root {
@@ -47,7 +49,7 @@ body {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: cursive;
   background-color: var(--primary-color-dark);
 }
 
@@ -70,7 +72,7 @@ body {
 .nav__logo a {
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--white);
+  color: #49beb7;
 }
 
 .nav__menu__btn {
@@ -509,10 +511,10 @@ body {
   background-color: #fd10ae;
 }
 .ag-courses_item:nth-child(4n) .ag-courses-item_bg {
-  background-color: #952aff;
+  background-color: #008080;
 }
 .ag-courses_item:nth-child(5n) .ag-courses-item_bg {
-  background-color: #32b5f1;
+  background-color: #800080;
 }
 .ag-courses_item:nth-child(6n) .ag-courses-item_bg {
   background-color: #eb0404;
@@ -780,3 +782,8 @@ body {
   -webkit-text-fill-color: transparent;
   text-align: center;
 }
+
+
+/*veille*/
+
+

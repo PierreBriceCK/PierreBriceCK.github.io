@@ -61,3 +61,18 @@ ScrollReveal().reveal(".footer__socials", {
   ...scrollRevealOption,
   delay: 1500,
 });
+
+
+document.getElementById('scroll-left').addEventListener('click', function() {
+  document.getElementById('carousel_item_img').scrollBy({
+      top: -100, // peut etre ajustable
+      behavior: 'smooth'
+  });
+});
+
+document.getElementById('scroll-right').addEventListener('click', function() {
+  document.getElementById('carousel_item_img').scrollBy({
+      top: 100, // peut etre ajustable
+      behavior: 'smooth'
+  });
+});
