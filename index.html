@@ -1,386 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-      rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="website icon" type="png"
-    href="assets/logopbck.png">
-    
-    <title>Web Developer | pbck.</title>
-  </head>
-  <body>
-    <nav>
-      <div class="nav__bar">
-        <div class="nav__header">
-          <div class="nav__logo">
-            <a href="#">pbck.</a>
-          </div>
-          <div class="nav__menu__btn" id="menu-btn">
-            <i class="ri-menu-line"></i>
-          </div>
-        </div>
-        <ul class="nav__links" id="nav-links">
-          <li><a href="#home">Menu</a></li>
-          <li><a href="#study">Etudes</a></li>
-          <li><a href="#project">Projets</a></li>
-          <li><a href="#experience">Experiences</a></li>
-          <li><a href="#certif">Certifications</a></li>
-          <li><a href="veille/index.html">Veille</a></li>
-          <li><a href="#contact">Contact</a></li>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio - pbck. </title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: pbck.
+  * Template URL: https://bootstrapmade.com/pbck.-free-Experiences-bootstrap-template/
+  * Updated: Mar 05 2025 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">pbck.</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Accueil</a></li>
+          <li><a href="A propos.html">A propos</a></li>
+          <li><a href="Experiences.html">Experiences</a></li>
+          <li><a href="Projet.html">Projet</a></li>
+          <li><a href="Certifications.html">Certifications</a></li>
+          <li class="dropdown"><a href="#"><span>Veille</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="dropdown1.html">Veille technologique</a></li>
+              <li><a href="dropdown2.html">Veille juridique</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-      </div>
-    </nav>
-    <header class="section__container header__container" id="home">
-      <img src="assets/logodepbck.png" alt="header" />
-      <h1>Bienvenue !</br> Je suis Chane-Kane<br/><span>Pierre-Brice</span></h1>
-      <p>
-        Je suis passionné d'informatique et de photographie. Ici, vous pourrez en découvrir davantage sur moi, mes projets, mes passions, etc. Installez-vous confortablement et partons ensemble à la découverte de mon univers.
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
-      </p>
-      <div class="header__btns">
-        <a href="#contact" download>Me contacter</a>
-        <a href="assets/CKpbCV.pdf" download>Télécharger CV</a>
-      </div>
-    </header>
+    </div>
+  </header>
 
-    <section class="section__container skill__container">
-      <h2>J'ai de l'expérience avec </h2>
-      <ul class="skill__flex">
-        <li>
-          <span><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript"><i class="ri-javascript-fill"></i></a></span>
-        </li>
-        <li>
-          <span><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS"><i class="ri-css3-fill"></i></a></span>
-        </li>
-        <li>
-          <span><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><i class="ri-html5-fill"></i></a></span>
-        </li>
-        <li>
-          <span><a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/"><i class="ri-bootstrap-fill"></i></a></span>
-        </li>
-        <li>
-          <span><a href="https://www.python.org/doc/essays/blurb/"><i class="ri-php-fill"></i></a></span>
-        </li>
-      </ul>
-    </section>
+  <main class="main">
 
-  </br>
-</br>
-</br>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
 
-    <section class="study" id="study">
-      <h2>Etudes</h2>
-      <div class="container">
-      <div class="box">
-        <span></span>
-        <div class="content">
-          <h2>2020</h2>
-          
-          <a href="bleu/index.html">Accompli</a>
+      <img src="assets/img/mcl.jpg" alt="" data-aos="fade-in">
+
+      <div class="container" data-aos="zoom-out" data-aos-delay="100">
+        <h2>CHANE-KANE Pierre-Brice</h2>
+        <p>I'm <span class="typed" data-typed-items="a student, Developer, Freelancer, Photographer"></span><span class="typed-cursor typed-cursor--blink"></span></p>
+        <div class="social-links">
+          <a href="https://x.com/pbck0?s=21"><i class="bi bi-twitter-x"></i></a>
+          <a href="https://www.instagram.com/pbck_photography?igsh=dHl4YjUxZGUzc3hq&utm_source=qr"><i class="bi bi-instagram"></i></a>
+          <a href="https://github.com/PierreBriceCK"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/pierre-brice-chane-kane-06a364330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="bi bi-linkedin"></i></a>
         </div>
       </div>
-      <div class="box">
-        <span></span>
-        <div class="content">
-          <h2>2023</h2>
-         
-          <a href="blanc/index.html">Accompli</a>
-        </div>
-      </div>
-      <div class="box">
-        <span></span>
-        <div class="content">
-          <h2>2025</h2>
-          
-          <a href="rouge/index.html">En cours</a>
-        </div>
-      </div>
-      </div>
-    </section>
-      
 
-    <section class="section__container project__container" id="project">
-      <h2>PROJECTS</h2>
-      <div class="project__grid">
-        <div class="project__card">
-          <img src="assets/project-1.jpg" alt="project" />
-          <div class="project__card__details">
-            <div>
-              <p>Python project</p>
-              <h4>Project 1</h4>
-            </div>
-            <a href="#"><i class="ri-arrow-right-up-line"></i></a>
-          </div>
-        </div>
-        <div class="project__card">
-          <img src="assets/project-2.jpg" alt="project" />
-          <div class="project__card__details">
-            <div>
-              <p>Discover New Destinations</p>
-              <h4>Project 2</h4>
-            </div> 
-            <a href="#"><i class="ri-arrow-right-up-line"></i></a>
-          </div>
-        </div>
-      </div>
-    </section>
+    </section><!-- /Hero Section -->
 
-    <section class="section__container experience__container" id="experience">
-      <h2>EXPERIENCE</h2>
-      <ul class="experience__list">
-        <li>
-          <div class="experience__header">
-            <div>
-              <img src="assets/OIP.jpg" alt="google" />
-              <h4>Parabole Réunion</h4>
-            </div>
-            <p>Mars 2020 </p>
-          </div>
-          <p>
-            Pendant ce stage, j’ai pu réaliser plusieurs tâches telles que l’installation d’antennes, l’installation de réseaux Wi-Fi chez les clients, ainsi que le dépannage de matériel. Ce stage m’a permis d’avoir un premier aperçu du travail en entreprise et du travail en équipe.
-          </p>
-        </li>
-        <li>
-          <div class="experience__header">
-            <div>
-              <img src="assets/logo-bouvet.png" alt="apple" />
-              <h4>Lycée Amiral Pierre Bouvet</h4>
-            </div>
-            <p>Octobre 2023</p>
-          </div>
-          <p>
-            Au cours de ce stage, j’ai découvert le fonctionnement du système informatique au sein d’un établissement. J’ai également pu effectuer des configurations matérielles ainsi que du dépannage.
-          </p>
-        </li>
-        <li>
-          <div class="experience__header">
-            <div>
-              <img src="assets/logo-bouvet.png" alt="meta" />
-              <h4>Lycée Amiral Pierre Bouvet</h4>
-            </div>
-            <p>Juin 2024</p>
-          </div>
-          <p>
-            Comme le précédent, ce stage a été une continuité du précédent : installation, dépannage et préparation du matériel informatique pour l’établissement. J’ai pu découvrir plus en profondeur le métier d’informaticien au sein d’un établissement.
-          </p>
-        </li>
-        <li>
-          <div class="experience__header">
-            <div>
-              <img src="assets/OIP (1).jpg" alt="meta" />
-              <h4>Eurosport Malta</h4>
-            </div>
-            <p>Jan 2025 - Mar 2025</p>
-          </div>
-          <p>
-            Cela a été le premier stage que j'ai pu réaliser à l'étranger. J'ai pu développer mes compétences informatiques et linguistiques. J'ai réalisé un programme en Python servant à gérer les stocks de l'entreprise, installé de nouveaux équipements et effectué des dépannages.
-          </p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="card" id="certif">
-      <h3>Certifications</h3>
-      <div class="ag-format-container">
-        <div class="ag-courses_box">
-          <div class="ag-courses_item">
-            <a href="certif/gestion cybermenace.pdf" class="ag-courses-item_link">
-              <div class="ag-courses-item_bg"></div>
-      
-              <div class="ag-courses-item_title">
-                Cyber Threat Management Cisco
-              </div>
-      
-              <div class="ag-courses-item_date-box">
-                Délivré le:
-                <span class="ag-courses-item_date">
-                  05.10.2024
-                </span>
-              </div>
-            </a>
-          </div>
-      
-          <div class="ag-courses_item">
-            <a href="certif/equipement reseau.pdf" class="ag-courses-item_link">
-              <div class="ag-courses-item_bg"></div>
-      
-              <div class="ag-courses-item_title">
-                Networking Devices Cisco
-              </div>
-      
-              <div class="ag-courses-item_date-box">
-                Délivré le:
-                <span class="ag-courses-item_date">
-                  30.11.2024
-                </span>
-              </div>
-            </a>
-          </div>
-      
-          <div class="ag-courses_item">
-            <a href="certif/EF SET Certificate.pdf" class="ag-courses-item_link">
-              <div class="ag-courses-item_bg"></div>
-      
-              <div class="ag-courses-item_title">
-                EF SET
-              </div>
-      
-              <div class="ag-courses-item_date-box">
-                Délivré le:
-                <span class="ag-courses-item_date">
-                  10.09.2024
-                </span>
-              </div>
-            </a>
-          </div>
-      
-          <div class="ag-courses_item">
-            <a href="certif/intro modern ai.pdf" class="ag-courses-item_link">
-              <div class="ag-courses-item_bg"></div>
-      
-              <div class="ag-courses-item_title">
-                Introduction to Modern AI
-              </div>
-      
-              <div class="ag-courses-item_date-box">
-                Délivré le:
-                <span class="ag-courses-item_date">
-                  13.12.2024
-                </span>
-              </div>
-            </a>
-          </div>
-      
-          <div class="ag-courses_item">
-            <a href="certif/Certification_Apple_Search_Ads.pdf" class="ag-courses-item_link">
-              <div class="ag-courses-item_bg"></div>
-      
-              <div class="ag-courses-item_title">
-                Apple Search Ads
-              </div>
-      
-              <div class="ag-courses-item_date-box">
-                Délivré le:
-                <span class="ag-courses-item_date">
-                  2024
-                </span>
-              </div>
-            </a>
-          </div>
-      
-          <div class="ag-courses_item">
-            <a href="certif/intro css.pdf" class="ag-courses-item_link">
-              <div class="ag-courses-item_bg"></div>
-      
-              <div class="ag-courses-item_title">
-                Introduction to CSS
-              </div>
-
-              <div class="ag-courses-item_date-box">
-                Délivré le:
-                <span class="ag-courses-item_date">
-                  06.09.2024
-                </span>
-              </div>
-            </a>
-          </div>
-      
-          <div class="ag-courses_item">
-            <a href="certif/intro html.pdf" class="ag-courses-item_link">
-              <div class="ag-courses-item_bg">
-              </div>
-              <div class="ag-courses-item_title">
-                Introduction to HTML
-              </div>
-
-              <div class="ag-courses-item_date-box">
-                Délivré le:
-                <span class="ag-courses-item_date">
-                  08.09.2024
-                </span>
-              </div>
-            </a>
-          </div>
-      
-          <div class="ag-courses_item">
-            <a href="certif/python.pdf" class="ag-courses-item_link">
-              <div class="ag-courses-item_bg"></div>
-      
-              <div class="ag-courses-item_title">
-                Python Essential Cisco
-              </div>
-      
-              <div class="ag-courses-item_date-box">
-                Délivré le:
-                <span class="ag-courses-item_date">
-                  22.1.2025
-                </span>
-              </div>
-            </a>
-          </div>
-
-          <div class="ag-courses_item">
-            <a href="certif/english t1.pdf" class="ag-courses-item_link">
-              <div class="ag-courses-item_bg">
-              </div>
-              <div class="ag-courses-item_title">
-                English for IT 1 Cisco
-              </div>
-
-              <div class="ag-courses-item_date-box">
-                Délivré le:
-                <span class="ag-courses-item_date">
-                  23.1.2025
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    
+  </main>
 
 
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-    <footer>
-      <div class="section__container footer__container" id="contact">
-        <h2>Contact</h2>
-        <p>
-          Here you can find my different media. Do not hesitate to contact me if you need via my mail at the bottom. You can find my works and a lot of things. Thanks for visiting my portfolio !
-        </p>
-        <div class="mail__to">
-          <a href="mailto:chanekanepierrebrice@gmail.com">
-            <span><i class="ri-mail-line"></i></span>
-            pierrebricechanekane@gmail.com
-          </a>
-          <p> Somewhere here you can discovered my other passion, so let's check it out !</p>
-        </div>
-        <ul class="footer__socials">
-          <li>
-            <a href="https://www.linkedin.com/in/pierre-brice-chane-kane-06a364330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="ri-linkedin-fill"></i></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/pbck_photography"><i class="ri-instagram-fill"></i></a>
-          </li>
-          <li>
-            <a href="https://github.com/PierreBriceCK"><i class="ri-github-fill"></i></a>
-          </li>
-          <li>
-            <a href="https://x.com/pbck0?s=21"><i class="ri-twitter-x-line"></i></a>
-          </li>
-          <li>
-            <a href="portfolio photo/index.html"><i class="ri-sparkling-2-line"></i></a>
-          </li>
-      </div>
-    </footer>
-    
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="main.js"></script>
-  </body>
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
